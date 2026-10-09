@@ -19,9 +19,9 @@ describe("Iteration 3 | Calculate Area", () => {
         });
 
         it("should return undefined if any of the arguments is not provided", () => {
-        expect(divide(1)).toEqual(undefined);
-        expect(divide()).toEqual(undefined);
-        expect(divide(undefined, 1)).toEqual(undefined);
+        expect(calculateArea(1)).toEqual(undefined);
+        expect(calculateArea()).toEqual(undefined);
+        expect(calculateArea(undefined, 1)).toEqual(undefined);
       });
 
     })    
